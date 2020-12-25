@@ -1,0 +1,50 @@
+@charset "UTF-8";
+#sadrzaj{
+width:600px;
+margin:auto;
+background-color:#00ffff;
+padding:20px;
+border-radius:10px;
+}
+input{
+margin:10px;
+}
+#meni{
+	padding:0px;
+	margin:0px;
+	background-color:gray;
+}
+#meni li{
+	 display:inline;
+}
+#meni a{
+	text-decoration:none;
+	padding:5px;
+	margin:5px;
+	color:white;
+}
+#meni a:hover{
+	background-color:#3e3e3e;
+}
+table{
+	border-collapse: collapse;
+}
+table td, th{
+	padding:3px;
+}
+#novpodforum,#novatema{
+	background-color:#cccccc;
+	margin:30px;
+	border-radius:10px;
+	padding:10px;
+}
+#novpodforum{
+	display:none;
+}
+.admin{
+	visibility: hidden;
+}
+.ikonica{
+width:30px;
+height:auto;
+}

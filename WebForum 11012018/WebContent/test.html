@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<script>
+$(document).ready(function(){
+$( "#list" ).on( "click","a", function( event ) {
+    event.preventDefault();
+    console.log( $( this ).text() );
+});
+});
+
+
+function napravi(){
+$(document).ready(function(){
+$('<input/>', {
+'type':'button',
+'id':'myDiv',
+'class':'myClass',
+'value':'moje dugme',
+}).appendTo('body');
+});}
+napravi();
+</script>
+<body>
+<div id="container">
+    <ul id="list">
+        <li><a href="">Item #1</a></li>
+        <li><a href="">Item #2</a></li>
+        <li><a href="">Item #3</a></li>
+        <li><a href="">Item #4</a></li>
+    </ul>
+</div>
+</body>
+</html>

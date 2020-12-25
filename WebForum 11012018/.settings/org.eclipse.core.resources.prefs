@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/success.jsp=UTF-8
+encoding//src/podaci/Authenticator.java=UTF-8
+encoding//src/podaci/Komentari.java=UTF-8
+encoding//src/servlets/UpisKomentaraServlet.java=UTF-8
+encoding//src/servlets/UpisKorisnikServlet.java=UTF-8
+encoding//src/servlets/UpisPodforum.java=UTF-8
